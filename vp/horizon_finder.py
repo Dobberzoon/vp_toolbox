@@ -2,7 +2,7 @@ import math
 
 import numpy as np
 
-from vp import geom_tools
+from vp_toolbox.vp import geom_tools
 
 
 def find_horizon(vanishing_points, principal_point, vertical_vanishing_point=None):

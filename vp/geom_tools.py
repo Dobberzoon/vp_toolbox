@@ -3,7 +3,7 @@ import math
 
 import numpy as np
 
-from vp import clusterer
+from vp_toolbox.vp import clusterer
 
 
 def find_all_intersections(lines):

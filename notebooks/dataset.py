@@ -1,4 +1,4 @@
-from vp import horizon_finder
+from vp_toolbox.vp import horizon_finder
 
 
 class Dataset(object):

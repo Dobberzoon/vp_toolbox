@@ -1,5 +1,5 @@
 import cv2
-from vp import geom_tools
+from vp_toolbox.vp import geom_tools
 
 # Based on "The Best of Metro Colors" https://www.color-hex.com/color-palette/861
 DRAW_PALETTE = [

@@ -1,6 +1,6 @@
 import math
 
-from vp import geom_tools
+from vp_toolbox.vp import geom_tools
 
 
 def horizon_error(ground_truth_horizon, detected_horizon, image_dims):
