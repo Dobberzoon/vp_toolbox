@@ -1,7 +1,7 @@
 import numpy as np
 
-import ransac
-from vp import geom_tools
+import ransac.ransac as ransac
+from vp_toolbox.vp import geom_tools
 
     
 class SegmentVPModel(ransac.Model):

@@ -5,8 +5,8 @@ import numpy as np
 
 import ransac
 
-from vp import line_detector
-from vp import vp_ransac
+from vp_toolbox.vp import line_detector
+from vp_toolbox.vp import vp_ransac
 
 
 def find_vanishing_points_in_image(
