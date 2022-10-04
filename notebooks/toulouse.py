@@ -1,10 +1,10 @@
 import json
 import os
 
-from vp import geom_tools
+from vp_toolbox.vp import geom_tools
 
-import dataset
-from print_progress import print_progress
+from vp_toolbox.notebooks import dataset
+from vp_toolbox.notebooks import print_progress
 
 IMAGE_EXTENSION = 'jpg'
 # Pixel dimensions of the images in the dataset.

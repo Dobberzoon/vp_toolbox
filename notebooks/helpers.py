@@ -5,10 +5,10 @@ import cv2
 from matplotlib import pyplot as plt
 import numpy as np
 
-from vp import draw_tools
-from vp import horizon_finder
-from vp import scoring
-from print_progress import print_progress
+from vp_toolbox.vp import draw_tools
+from vp_toolbox.vp import horizon_finder
+from vp_toolbox.vp import scoring
+from vp_toolbox.notebooks import print_progress
 
 HORIZON_LINE_COLOR = (255, 255, 0)
 BAD_LINES_COLOR = (0, 55, 0)
