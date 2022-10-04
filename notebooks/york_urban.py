@@ -29,6 +29,7 @@ def load_dataset(dataset_path, show_progress_bar=True):
     image_paths = []
     image_gt_vps = []
     image_gt_segments = []
+    print("what the hell, it works here.....")
     # Images paths are <base>/<base>.jpg.
     # VP data paths are <base>/<base>LinesAndVP.mat.
     # entries = os.listdir(dataset_path)
